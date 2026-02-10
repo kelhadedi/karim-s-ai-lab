@@ -1,22 +1,7 @@
-import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import MagneticButton from "./MagneticButton";
-import iridescentOrb from "@/assets/iridescent-orb.png";
 
 const HeroSection = () => {
-  const orbRef = useRef<HTMLDivElement>(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      const x = (e.clientX / window.innerWidth - 0.5) * 30;
-      const y = (e.clientY / window.innerHeight - 0.5) * 30;
-      setMousePos({ x, y });
-    };
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
-
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden section-padding">
       {/* Subtle grid */}
@@ -25,20 +10,10 @@ const HeroSection = () => {
         backgroundSize: "60px 60px"
       }} />
 
-      {/* Orb */}
-      <motion.div
-        ref={orbRef}
-        className="absolute w-[300px] h-[300px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] z-0"
-        animate={{ x: mousePos.x, y: mousePos.y }}
-        transition={{ type: "spring", stiffness: 50, damping: 30 }}
-      >
-        <img
-          src={iridescentOrb}
-          alt=""
-          className="w-full h-full object-contain drop-shadow-2xl"
-          style={{ filter: "saturate(1.2)" }}
-        />
-      </motion.div>
+      {/* Spline 3D background */}
+      <div className="absolute inset-0 z-0">
+        <spline-viewer url="https://prod.spline.design/F0G-nefQlu24wJYa/scene.splinecode" style={{ width: "100%", height: "100%" }} />
+      </div>
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl">
