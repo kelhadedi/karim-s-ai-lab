@@ -10,11 +10,6 @@ const HeroSection = () => {
         backgroundSize: "60px 60px"
       }} />
 
-      {/* Spline 3D background */}
-      <div className="absolute inset-0 z-0">
-        <spline-viewer url="https://prod.spline.design/F0G-nefQlu24wJYa/scene.splinecode" style={{ width: "100%", height: "100%" }} />
-      </div>
-
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl">
         <motion.p
