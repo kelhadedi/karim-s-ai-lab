@@ -1,4 +1,5 @@
 import { useState, useCallback } from "react";
+import ehkLogo from "@/assets/ehk-logo.svg";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
