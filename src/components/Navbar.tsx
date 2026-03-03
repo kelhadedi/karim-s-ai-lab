@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 section-padding">
       <div className="mx-auto mt-4 flex items-center justify-between rounded-full glass-card px-6 py-3 max-w-5xl">
         <button onClick={() => scrollTo("hero")} className="flex items-center">
-          <img src={ehkLogo} alt="EHK Logo" className="h-8 w-auto invert dark:invert-0" />
+          <img src={ehkLogo} alt="EHK Logo" className="h-8 w-auto dark:invert" />
         </button>
 
         {/* Desktop */}
