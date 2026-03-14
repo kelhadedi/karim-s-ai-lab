@@ -1,26 +1,26 @@
 import ScrollReveal from "./ScrollReveal";
-import { Search, Layers, Grid3x3, Brain } from "lucide-react";
+import { PenTool, Layout, Palette, Monitor } from "lucide-react";
 
 const services = [
   {
-    icon: Search,
-    title: "User Research",
-    description: "Entretiens utilisateurs, tests d'usabilité, personas et parcours utilisateurs pour des décisions de design éclairées.",
+    icon: PenTool,
+    title: "Maquettage & Wireframing",
+    description: "Conception de wireframes et maquettes haute fidélité sur Figma, du concept à la livraison.",
   },
   {
-    icon: Layers,
-    title: "Prototypage Hi-Fi",
-    description: "Prototypes interactifs haute fidélité sur Figma avec micro-interactions et animations fluides.",
-  },
-  {
-    icon: Grid3x3,
-    title: "Design Systems",
+    icon: Layout,
+    title: "Design System",
     description: "Création de systèmes de design modulaires et scalables pour assurer la cohérence de l'expérience.",
   },
   {
-    icon: Brain,
-    title: "Intégration IA",
-    description: "Intégration d'outils d'IA générative dans le workflow de design pour accélérer et enrichir la création.",
+    icon: Palette,
+    title: "Branding & Identité",
+    description: "Direction artistique, typographie et branding avec Illustrator et Photoshop.",
+  },
+  {
+    icon: Monitor,
+    title: "UI Responsive",
+    description: "Prototypage interactif et interfaces responsives adaptées à tous les écrans.",
   },
 ];
 
@@ -29,7 +29,7 @@ const ExpertiseSection = () => {
     <section id="expertise" className="py-32 section-padding">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
-          <p className="text-sm text-muted-foreground tracking-[0.3em] uppercase mb-4">Services</p>
+          <p className="text-sm text-muted-foreground tracking-[0.3em] uppercase mb-4">Compétences</p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-16">
             Expertise
           </h2>
