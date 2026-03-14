@@ -2,24 +2,24 @@ import ScrollReveal from "./ScrollReveal";
 
 const timelineItems = [
   {
-    year: "2026",
-    title: "Diplôme BUT MMI",
-    description: "Spécialisation en design d'interface et expérience utilisateur. Projets de fin d'études centrés sur l'IA.",
+    year: "2023 – 2026",
+    title: "B.U.T Métiers du Multimédia et de l'Internet",
+    description: "IUT De Lannion (Université De Rennes) puis IUT Di Corsica. Spécialité : stratégie de communication et design UI/UX.",
   },
   {
-    year: "2025",
-    title: "Stage UX/UI Designer",
-    description: "Conception d'interfaces pour applications mobiles et web. Participation à la refonte d'un design system.",
+    year: "Mars – Juin 2026",
+    title: "Stage UX/UI Designer – Orange Business Services",
+    description: "Intégration de l'IA dans les processus de design du studio. Expérimentation sur des cas réels et déploiement des pratiques IA-design.",
   },
   {
-    year: "2024",
-    title: "Projets Freelance",
-    description: "Création d'identités visuelles et interfaces pour startups. Exploration du design génératif.",
+    year: "Janv. – Mars 2026",
+    title: "Projet UX Research – JoMo",
+    description: "Tests utilisateurs sur l'app JoMo : protocole de tests, outils d'évaluation (SUS, AttrakDiff, PANAs), analyse et recommandations UX.",
   },
   {
     year: "→",
-    title: "Ambitions Futures",
-    description: "Intégrer une agence de design innovante. Approfondir l'intersection design × intelligence artificielle.",
+    title: "Alternance UX/UI Designer",
+    description: "En recherche d'une alternance pour approfondir mes compétences en design d'interface et expérience utilisateur.",
   },
 ];
 

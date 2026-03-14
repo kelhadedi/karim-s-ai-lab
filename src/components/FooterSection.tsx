@@ -47,7 +47,7 @@ const FooterSection = () => {
 
         <div className="border-t border-border pt-8">
           <p className="text-xs text-muted-foreground">
-            © 2026 Karim — Conçu avec passion
+            © 2026 Karim El Hadedi — Conçu avec passion
           </p>
         </div>
       </div>

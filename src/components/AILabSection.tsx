@@ -4,21 +4,21 @@ import { Sparkles, Cpu, Zap } from "lucide-react";
 const aiCards = [
   {
     icon: Sparkles,
-    title: "Génération Visuelle",
-    description: "Utilisation de Midjourney et DALL·E pour le prototypage rapide et la direction artistique.",
-    tag: "Midjourney · DALL·E",
+    title: "IA & Design Studio",
+    description: "Exploration de l'intégration de l'IA dans les processus de design chez Orange Business Services.",
+    tag: "Orange · Stage 2026",
   },
   {
     icon: Cpu,
-    title: "Design Prédictif",
-    description: "Analyse de données utilisateur pour anticiper les besoins et optimiser les interfaces.",
-    tag: "Analytics · UX Research",
+    title: "UX Research",
+    description: "Tests utilisateurs avec protocoles standardisés (SUS, AttrakDiff, PANAs) et analyse de données comportementales.",
+    tag: "JoMo · User Testing",
   },
   {
     icon: Zap,
     title: "Workflow Augmenté",
-    description: "Automatisation des tâches répétitives et intégration de l'IA dans le processus créatif.",
-    tag: "Figma AI · ChatGPT",
+    description: "Automatisation et expérimentation IA sur des cas réels pour évaluer faisabilité et gains en production.",
+    tag: "Figma · Prototypage",
   },
 ];
 
