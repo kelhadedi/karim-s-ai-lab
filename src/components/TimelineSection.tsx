@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import orangeLogo from "@/assets/orange-business-logo.svg";
 
 const timelineItems = [
   {
@@ -10,6 +11,7 @@ const timelineItems = [
     year: "Mars – Juin 2026",
     title: "Stage UX/UI Designer – Orange Business Services",
     description: "Intégration de l'IA dans les processus de design du studio. Expérimentation sur des cas réels et déploiement des pratiques IA-design.",
+    logo: orangeLogo,
   },
   {
     year: "Janv. – Mars 2026",
@@ -51,8 +53,15 @@ const TimelineSection = () => {
                   </div>
 
                   <div className="flex-1">
-                    <span className="text-xs font-medium text-muted-foreground tracking-widest">{item.year}</span>
-                    <h3 className="font-display text-xl md:text-2xl font-semibold text-foreground mt-1 mb-2">{item.title}</h3>
+                    <div className="flex items-center gap-4">
+                      <div>
+                        <span className="text-xs font-medium text-muted-foreground tracking-widest">{item.year}</span>
+                        <h3 className="font-display text-xl md:text-2xl font-semibold text-foreground mt-1 mb-2">{item.title}</h3>
+                      </div>
+                      {item.logo && (
+                        <img src={item.logo} alt="Logo" className="h-10 md:h-14 w-auto flex-shrink-0 dark:brightness-0 dark:invert" />
+                      )}
+                    </div>
                     <p className="text-sm text-muted-foreground leading-relaxed max-w-md">{item.description}</p>
                   </div>
                 </div>
