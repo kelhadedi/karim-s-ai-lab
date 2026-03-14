@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import orangeLogo from "@/assets/orange-business-logo.svg";
 
 const timelineItems = [
   {
@@ -10,6 +11,7 @@ const timelineItems = [
     year: "Mars – Juin 2026",
     title: "Stage UX/UI Designer – Orange Business Services",
     description: "Intégration de l'IA dans les processus de design du studio. Expérimentation sur des cas réels et déploiement des pratiques IA-design.",
+    logo: orangeLogo,
   },
   {
     year: "Janv. – Mars 2026",
