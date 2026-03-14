@@ -13,7 +13,7 @@ const FooterSection = () => {
             <span className="gradient-text">ensemble</span>
           </h2>
           <p className="text-muted-foreground max-w-md mx-auto mb-12">
-            Disponible pour des missions freelance, stages ou collaborations créatives.
+            Disponible pour une alternance en UX/UI Design — Nantes ou Marseille.
           </p>
         </ScrollReveal>
 
