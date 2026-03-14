@@ -36,11 +36,11 @@ const FooterSection = () => {
 
         <ScrollReveal delay={0.3}>
           <div className="flex items-center justify-center gap-8 mb-12">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors duration-300 text-sm">
+            <a href="https://www.linkedin.com/in/karim-el-hadedi" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors duration-300 text-sm">
               LinkedIn ↗
             </a>
-            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors duration-300 text-sm">
-              Behance ↗
+            <a href="https://kelhadedi.github.io/portfolio" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors duration-300 text-sm">
+              Portfolio GitHub ↗
             </a>
           </div>
         </ScrollReveal>
