@@ -18,7 +18,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Portfolio 2026
+          Recherche d'alternance
         </motion.p>
 
         <motion.h1
@@ -29,9 +29,9 @@ const HeroSection = () => {
         >
           Karim
           <br />
-          <span className="text-muted-foreground">UX/UI Designer</span>
+          <span className="text-muted-foreground">El Hadedi</span>
           <br />
-          <span className="gradient-text">&amp; IA Explorer</span>
+          <span className="gradient-text">UX/UI Designer</span>
         </motion.h1>
 
         <motion.div
